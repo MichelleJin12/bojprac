@@ -4,19 +4,11 @@
 #include <iostream>
 
 int boj1712() {
-    int A, B, C, total, money;
+    int A, B, C, cost;
     std::cin >> A >> B >> C;
-    int i = 1;
-    while (1) {
-        total = A + (B * i);
-        money = C * i;
-        if (money - total < 0) {
-            i++;
-        } else {
-            std::cout << i;
-            break;
-        }
-    }
+    cost = C - B;
+    if (cost <= 0) std::cout << -1;
+    else std::cout << A / cost + 1;
     return 0;
 }
 
