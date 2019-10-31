@@ -6,5 +6,6 @@
 #define UNTITLED_HEADERS_H
 
 int boj1712();
+int boj2839();
 
 #endif //UNTITLED_HEADERS_H
