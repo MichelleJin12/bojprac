@@ -3,7 +3,7 @@
 
 int main() {
 
-    int boj1712();
+    int boj2839();
 
     return 0;
 }
